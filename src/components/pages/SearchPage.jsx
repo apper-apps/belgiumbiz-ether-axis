@@ -29,11 +29,12 @@ const SearchPage = () => {
       const belgianVatRegex = /^(BE)?[0-9]{10}$/
       const cleanQuery = query.replace(/\s/g, "")
       
-      if (belgianVatRegex.test(cleanQuery)) {
+if (belgianVatRegex.test(cleanQuery)) {
         // Search by VAT number
         const vatNumber = cleanQuery.startsWith("BE") ? cleanQuery : `BE${cleanQuery}`
         const company = await companyService.getByVatNumber(vatNumber)
-} else {
+        results = [company]
+      } else {
         // Search by company name
         results = await companyService.searchByName(query)
       }
