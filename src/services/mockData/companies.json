@@ -1,0 +1,362 @@
+[
+  {
+    "Id": 1,
+    "vatNumber": "BE0400378485",
+    "name": "Colruyt Group NV",
+    "legalForm": "Naamloze Vennootschap",
+    "foundedDate": "1928-07-15",
+    "address": {
+      "street": "Edingensesteenweg",
+      "number": "196",
+      "postalCode": "1500",
+      "city": "Halle",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.colruytgroup.com",
+    "email": "info@colruytgroup.com",
+    "phone": "+32 2 360 10 20",
+    "executives": [
+      {
+        "Id": 1,
+        "name": "Jef Colruyt",
+        "role": "Voorzitter Raad van Bestuur",
+        "startDate": "2010-01-01",
+        "endDate": null
+      },
+      {
+        "Id": 2,
+        "name": "Stefan Goethaert",
+        "role": "Gedelegeerd Bestuurder",
+        "startDate": "2018-05-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 1,
+        "year": 2021,
+        "revenue": 10200000000,
+        "profit": 425000000,
+        "equity": 2100000000,
+        "employees": 32500
+      },
+      {
+        "Id": 2,
+        "year": 2022,
+        "revenue": 10850000000,
+        "profit": 468000000,
+        "equity": 2250000000,
+        "employees": 33200
+      },
+      {
+        "Id": 3,
+        "year": 2023,
+        "revenue": 11320000000,
+        "profit": 512000000,
+        "equity": 2380000000,
+        "employees": 34100
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "vatNumber": "BE0403170701",
+    "name": "Delhaize Group SA",
+    "legalForm": "Société Anonyme",
+    "foundedDate": "1867-08-01",
+    "address": {
+      "street": "Rue Osseghemstraat",
+      "number": "53",
+      "postalCode": "1080",
+      "city": "Brussel",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.delhaizegroup.com",
+    "email": "contact@delhaize.be",
+    "phone": "+32 2 412 21 11",
+    "executives": [
+      {
+        "Id": 3,
+        "name": "Xavier Piesvaux",
+        "role": "Chief Executive Officer",
+        "startDate": "2020-03-01",
+        "endDate": null
+      },
+      {
+        "Id": 4,
+        "name": "Denis Knoops",
+        "role": "Chief Financial Officer",
+        "startDate": "2019-01-15",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 4,
+        "year": 2021,
+        "revenue": 5800000000,
+        "profit": 180000000,
+        "equity": 1200000000,
+        "employees": 18500
+      },
+      {
+        "Id": 5,
+        "year": 2022,
+        "revenue": 6100000000,
+        "profit": 195000000,
+        "equity": 1285000000,
+        "employees": 19200
+      },
+      {
+        "Id": 6,
+        "year": 2023,
+        "revenue": 6350000000,
+        "profit": 212000000,
+        "equity": 1350000000,
+        "employees": 19800
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "vatNumber": "BE0404616494",
+    "name": "KBC Group NV",
+    "legalForm": "Naamloze Vennootschap",
+    "foundedDate": "1935-06-10",
+    "address": {
+      "street": "Havenlaan",
+      "number": "2",
+      "postalCode": "1080",
+      "city": "Brussel",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.kbc.com",
+    "email": "info@kbc.be",
+    "phone": "+32 2 429 11 11",
+    "executives": [
+      {
+        "Id": 5,
+        "name": "Johan Thijs",
+        "role": "Chief Executive Officer",
+        "startDate": "2012-04-01",
+        "endDate": null
+      },
+      {
+        "Id": 6,
+        "name": "Luc Popelier",
+        "role": "Chief Financial Officer",
+        "startDate": "2015-01-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 7,
+        "year": 2021,
+        "revenue": 8950000000,
+        "profit": 2680000000,
+        "equity": 18500000000,
+        "employees": 41200
+      },
+      {
+        "Id": 8,
+        "year": 2022,
+        "revenue": 9200000000,
+        "profit": 2890000000,
+        "equity": 19200000000,
+        "employees": 42100
+      },
+      {
+        "Id": 9,
+        "year": 2023,
+        "revenue": 9580000000,
+        "profit": 3120000000,
+        "equity": 20100000000,
+        "employees": 42800
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "vatNumber": "BE0417497106",
+    "name": "Proximus NV",
+    "legalForm": "Naamloze Vennootschap",
+    "foundedDate": "1930-12-23",
+    "address": {
+      "street": "Koning Albert II-laan",
+      "number": "27",
+      "postalCode": "1030",
+      "city": "Brussel",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.proximus.com",
+    "email": "info@proximus.be",
+    "phone": "+32 2 202 41 11",
+    "executives": [
+      {
+        "Id": 7,
+        "name": "Guillaume Boutin",
+        "role": "Chief Executive Officer",
+        "startDate": "2022-01-01",
+        "endDate": null
+      },
+      {
+        "Id": 8,
+        "name": "Sandrine Dufour",
+        "role": "Chief Financial Officer",
+        "startDate": "2018-09-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 10,
+        "year": 2021,
+        "revenue": 5680000000,
+        "profit": 612000000,
+        "equity": 3200000000,
+        "employees": 13800
+      },
+      {
+        "Id": 11,
+        "year": 2022,
+        "revenue": 5520000000,
+        "profit": 580000000,
+        "equity": 3150000000,
+        "employees": 13200
+      },
+      {
+        "Id": 12,
+        "year": 2023,
+        "revenue": 5450000000,
+        "profit": 595000000,
+        "equity": 3180000000,
+        "employees": 12900
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "vatNumber": "BE0403053608",
+    "name": "Solvay SA",
+    "legalForm": "Société Anonyme",
+    "foundedDate": "1863-12-26",
+    "address": {
+      "street": "Rue de Ransbeek",
+      "number": "310",
+      "postalCode": "1120",
+      "city": "Brussel",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.solvay.com",
+    "email": "info@solvay.com",
+    "phone": "+32 2 264 21 11",
+    "executives": [
+      {
+        "Id": 9,
+        "name": "Ilham Kadri",
+        "role": "Chief Executive Officer",
+        "startDate": "2019-03-01",
+        "endDate": null
+      },
+      {
+        "Id": 10,
+        "name": "Karim Hajjar",
+        "role": "Chief Financial Officer",
+        "startDate": "2020-01-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 13,
+        "year": 2021,
+        "revenue": 10120000000,
+        "profit": 890000000,
+        "equity": 7200000000,
+        "employees": 23800
+      },
+      {
+        "Id": 14,
+        "year": 2022,
+        "revenue": 12950000000,
+        "profit": 1280000000,
+        "equity": 8100000000,
+        "employees": 22400
+      },
+      {
+        "Id": 15,
+        "year": 2023,
+        "revenue": 13800000000,
+        "profit": 1450000000,
+        "equity": 8650000000,
+        "employees": 22100
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "vatNumber": "BE0123456789",
+    "name": "TechStart Belgium BV",
+    "legalForm": "Besloten Vennootschap",
+    "foundedDate": "2018-03-15",
+    "address": {
+      "street": "Technologielaan",
+      "number": "45",
+      "postalCode": "9000",
+      "city": "Gent",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.techstart.be",
+    "email": "hello@techstart.be",
+    "phone": "+32 9 123 45 67",
+    "executives": [
+      {
+        "Id": 11,
+        "name": "Sarah Vermeulen",
+        "role": "Chief Executive Officer",
+        "startDate": "2018-03-15",
+        "endDate": null
+      },
+      {
+        "Id": 12,
+        "name": "Thomas De Vries",
+        "role": "Chief Technology Officer",
+        "startDate": "2018-05-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 16,
+        "year": 2021,
+        "revenue": 2500000,
+        "profit": 150000,
+        "equity": 850000,
+        "employees": 12
+      },
+      {
+        "Id": 17,
+        "year": 2022,
+        "revenue": 4200000,
+        "profit": 320000,
+        "equity": 1200000,
+        "employees": 18
+      },
+      {
+        "Id": 18,
+        "year": 2023,
+        "revenue": 6800000,
+        "profit": 580000,
+        "equity": 1850000,
+        "employees": 28
+      }
+    ]
+  }
+]

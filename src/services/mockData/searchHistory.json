@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "query": "Colruyt",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "resultCount": 1
+  },
+  {
+    "Id": 2,
+    "query": "BE0400378485",
+    "timestamp": "2024-01-15T09:15:00Z",
+    "resultCount": 1
+  },
+  {
+    "Id": 3,
+    "query": "Delhaize",
+    "timestamp": "2024-01-14T16:45:00Z",
+    "resultCount": 1
+  },
+  {
+    "Id": 4,
+    "query": "KBC Group",
+    "timestamp": "2024-01-14T14:20:00Z",
+    "resultCount": 1
+  },
+  {
+    "Id": 5,
+    "query": "BE0417497106",
+    "timestamp": "2024-01-13T11:10:00Z",
+    "resultCount": 1
+  }
+]
