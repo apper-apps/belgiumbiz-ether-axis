@@ -127,10 +127,10 @@ export const companyService = {
         ]
       };
 
-      const response = await apperClient.fetchRecords('company', params);
+const response = await apperClient.fetchRecords('company', params);
       
       if (!response.success) {
-        console.error(response.message);
+        console.error("API Error fetching company by VAT number:", response.message);
         throw new Error("Bedrijf met dit BTW-nummer niet gevonden");
       }
 
@@ -142,10 +142,14 @@ export const companyService = {
     } catch (error) {
       if (error?.response?.data?.message) {
         console.error("Error fetching company by VAT number:", error?.response?.data?.message);
+        throw new Error("Bedrijf met dit BTW-nummer niet gevonden");
+      } else if (error.message && !error.message.includes("Bedrijf met dit BTW-nummer niet gevonden")) {
+        console.error("Unexpected error in getByVatNumber:", error.message);
+        throw new Error("Bedrijf met dit BTW-nummer niet gevonden");
       } else {
-        console.error(error.message);
+        // Re-throw user-friendly messages as-is
+        throw error;
       }
-      throw new Error("Bedrijf met dit BTW-nummer niet gevonden");
     }
   },
 
