@@ -358,5 +358,65 @@
         "employees": 28
       }
     ]
+},
+  {
+    "Id": 7,
+    "vatNumber": "BE0640674112",
+    "name": "DataFlow Solutions NV",
+    "legalForm": "Naamloze Vennootschap",
+    "foundedDate": "2015-09-12",
+    "address": {
+      "street": "Kortrijksesteenweg",
+      "number": "158",
+      "postalCode": "9000",
+      "city": "Gent",
+      "country": "België"
+    },
+    "status": "Actief",
+    "website": "www.dataflow-solutions.be",
+    "email": "info@dataflow-solutions.be",
+    "phone": "+32 9 265 78 90",
+    "executives": [
+      {
+        "Id": 13,
+        "name": "Marc Vandenberghe",
+        "role": "Chief Executive Officer",
+        "startDate": "2015-09-12",
+        "endDate": null
+      },
+      {
+        "Id": 14,
+        "name": "Els Verstraete",
+        "role": "Chief Financial Officer",
+        "startDate": "2016-03-01",
+        "endDate": null
+      }
+    ],
+    "financialData": [
+      {
+        "Id": 19,
+        "year": 2021,
+        "revenue": 8500000,
+        "profit": 720000,
+        "equity": 2100000,
+        "employees": 45
+      },
+      {
+        "Id": 20,
+        "year": 2022,
+        "revenue": 11200000,
+        "profit": 980000,
+        "equity": 2650000,
+        "employees": 58
+      },
+      {
+        "Id": 21,
+        "year": 2023,
+        "revenue": 14800000,
+        "profit": 1350000,
+        "equity": 3200000,
+        "employees": 72
+      }
+    ]
   }
 ]
