@@ -33,8 +33,7 @@ const SearchPage = () => {
         // Search by VAT number
         const vatNumber = cleanQuery.startsWith("BE") ? cleanQuery : `BE${cleanQuery}`
         const company = await companyService.getByVatNumber(vatNumber)
-        results = company ? [company] : []
-      } else {
+} else {
         // Search by company name
         results = await companyService.searchByName(query)
       }

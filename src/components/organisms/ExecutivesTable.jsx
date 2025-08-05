@@ -47,10 +47,10 @@ const ExecutivesTable = ({ executives }) => {
               <tr key={executive.Id} className="hover:bg-gray-50 transition-colors">
                 <td className="px-6 py-4">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white font-semibold text-sm">
-                      {executive.name.charAt(0).toUpperCase()}
+<div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white font-semibold text-sm">
+                      {executive.Name.charAt(0).toUpperCase()}
                     </div>
-                    <span className="font-medium text-primary">{executive.name}</span>
+                    <span className="font-medium text-primary">{executive.Name}</span>
                   </div>
                 </td>
                 <td className="px-6 py-4 text-gray-600">

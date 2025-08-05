@@ -25,9 +25,9 @@ const SearchHistory = ({ onSelectHistory }) => {
     }
   }
 
-  const handleClearHistory = async () => {
+const handleClearHistory = async () => {
     try {
-      // In a real app, you would call an API to clear history
+      await searchHistoryService.clear()
       setHistory([])
     } catch (error) {
       console.error("Error clearing history:", error)

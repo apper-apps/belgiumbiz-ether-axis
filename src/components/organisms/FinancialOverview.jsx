@@ -182,8 +182,8 @@ const FinancialOverview = ({ financialData }) => {
                 <th className="px-6 py-4 text-right text-sm font-semibold text-gray-900">Werknemers</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200">
-              {sortedData.reverse().map((data) => (
+<tbody className="divide-y divide-gray-200">
+              {[...sortedData].reverse().map((data) => (
                 <tr key={data.Id} className="hover:bg-gray-50 transition-colors">
                   <td className="px-6 py-4 font-medium text-primary">{data.year}</td>
                   <td className="px-6 py-4 text-right text-gray-600">

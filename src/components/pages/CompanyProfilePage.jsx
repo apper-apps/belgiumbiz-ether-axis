@@ -22,7 +22,7 @@ const CompanyProfilePage = () => {
   const loadCompanyData = async () => {
     try {
       setLoading(true)
-      setError("")
+setError("")
       
       const companyData = await companyService.getByVatNumber(vatNumber)
       
@@ -31,7 +31,22 @@ const CompanyProfilePage = () => {
         return
       }
 
-      setCompany(companyData)
+      // Transform data structure for backward compatibility
+      const transformedCompany = {
+        ...companyData,
+        name: companyData.Name,
+        address: {
+          street: companyData.street,
+          number: companyData.number,
+          postalCode: companyData.postalCode,
+          city: companyData.city,
+          country: companyData.country
+        },
+        executives: [], // Will be loaded separately
+        financialData: [] // Will be loaded separately
+      }
+
+      setCompany(transformedCompany)
     } catch (err) {
       setError(err.message || "Er is een fout opgetreden bij het laden van bedrijfsgegevens")
       toast.error("Kon bedrijfsgegevens niet laden")
